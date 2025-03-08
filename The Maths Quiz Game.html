@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Math Quiz Game</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <div id="timer">Time Left: <span id="time">30</span> seconds</div>
+    <button onclick="hint()">💡 Hint</button>
+    <div id="hint"></div>
+    <div id="scoreboard">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard"></ul>
+    </div>
+    <button onclick="resetGame()">Reset Game</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
